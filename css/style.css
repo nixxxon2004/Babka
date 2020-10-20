@@ -1,0 +1,50 @@
+:root {
+    --dark-color: rgb(30, 228, 168);
+    --light-color:rgba(173, 252, 255);
+
+}
+
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.header {
+    background: var(--dark-color);
+    color: black;
+    width: 75%;
+    height: 10vh;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+}
+
+
+main {
+    width: 75%;
+    margin: 0 auto;
+    background: var(--light-color);
+    padding: 8rem 2rem 3rem 2rem; /*top right bottom left*/
+    margin-top:1rem;
+    
+}
+
+
+img {
+    width: 300px;
+    float:right;
+}
+
+
+.footer {
+width: 75%;
+margin: auto;
+background: var(--dark-color);
+color:black;
+
+}
+
+
